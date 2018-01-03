@@ -11,7 +11,6 @@ RUN \
       xvfb \
       x11vnc \
       midori \
-
       && \
     # Install noVNC
     git clone --depth 1 https://github.com/novnc/noVNC.git /root/noVNC && \
